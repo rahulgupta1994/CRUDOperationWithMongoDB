@@ -12,7 +12,6 @@ public class Expense {
 
 	@Id
 	private String id;
-
 	@Field(name = "name")
 	@Indexed(unique = true)
 	private String expenseName;
@@ -21,12 +20,8 @@ public class Expense {
 	@Field(name = "amount")
 	private BigDecimal expenseAmount;
 
-	/**
-	 * @param id
-	 * @param expenseName
-	 * @param expenseCategory
-	 * @param expenseAmount
-	 */
+
+	// For testing purpose doing some changed such as this message to test in jenkins email notification
 	public Expense(String id, String expenseName, ExpenseCategory expenseCategory, BigDecimal expenseAmount) {
 		super();
 		this.id = id;
