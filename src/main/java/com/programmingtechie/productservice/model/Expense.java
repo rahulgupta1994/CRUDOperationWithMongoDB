@@ -12,6 +12,7 @@ public class Expense {
 
 	@Id
 	private String id;
+
 	@Field(name = "name")
 	@Indexed(unique = true)
 	private String expenseName;
