@@ -21,7 +21,8 @@ public class Expense {
 	private BigDecimal expenseAmount;
 
 
-	// For testing purpose doing some changed such as this message to test in jenkins email notification
+	// For testing purpose doing some changed such as this
+	// message to test in jenkins email notification
 	public Expense(String id, String expenseName, ExpenseCategory expenseCategory, BigDecimal expenseAmount) {
 		super();
 		this.id = id;

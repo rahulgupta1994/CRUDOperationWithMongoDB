@@ -17,7 +17,10 @@ import com.programmingtechie.productservice.services.ExpenseService;
 @RestController
 @RequestMapping("/api/expense")
 public class ExpenseController {
-	
+
+	// For testing purpose doing some changed
+	// such as this message to test in jenkins email notification
+
 	private final ExpenseService expenseService;
 	
 	public ExpenseController(ExpenseService expenseService) {
